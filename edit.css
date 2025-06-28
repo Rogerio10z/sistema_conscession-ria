@@ -1,0 +1,73 @@
+form#modelo {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form#modelo label {
+    font-weight: 600;
+    color: #1e3a8a;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+form#modelo input[type="text"],
+form#modelo input[type="number"],
+form#modelo input[type="file"],
+form#modelo select,
+form#modelo textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+form#modelo button[type="submit"] {
+    background-color: #1e3a8a;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form#modelo button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+form#modelo a button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+form#modelo a button:hover {
+    background-color: #1d4ed8;
+}
+
+form#modelo div {
+    margin-bottom: 15px;
+}
+
+form#modelo .inline-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
